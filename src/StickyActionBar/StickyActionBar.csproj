@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Cove.StickyActionBar</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Cove.Plugins" Version="1.5.1" ExcludeAssets="runtime" />
+    <None Update="extension.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Always" />
+    <None Include="../../frontend/*" Link="assets/%(Filename)%(Extension)" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+</Project>

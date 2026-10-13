@@ -1,0 +1,14 @@
+{
+  "id": "io.github.jiwenjimiran.sticky-action-bar",
+  "name": "Sticky Action Bar",
+  "version": "1.0.0",
+  "description": "Keep list filters, titles, and selection actions visible while scrolling.",
+  "author": "jiwenji",
+  "url": "https://github.com/jiwenjimiran/sticky-action-bar",
+  "kind": "extension",
+  "categories": ["ui", "style"],
+  "minCoveVersion": "1.5.1",
+  "entryDll": "Cove.StickyActionBar.dll",
+  "jsBundle": "assets/sticky-action-bar.js",
+  "cssBundle": "assets/sticky-action-bar.css"
+}

@@ -1,0 +1,15 @@
+/* Cove owns stylesheet loading; the module owns these temporary attributes. */
+[data-sticky-action-bar="toolbar"] {
+  position: sticky !important;
+  top: var(--sticky-action-bar-nav, 0px) !important;
+  z-index: 40;
+  background-color: var(--color-surface, var(--color-card, #18181b)) !important;
+}
+
+[data-sticky-action-bar="selection"] {
+  position: sticky !important;
+  top: calc(var(--sticky-action-bar-nav, 0px) + var(--sticky-action-bar-height, 0px) + 4px) !important;
+  z-index: 39;
+  background-color: var(--color-card, var(--color-surface, #18181b)) !important;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+}

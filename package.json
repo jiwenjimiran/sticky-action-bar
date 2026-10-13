@@ -1,0 +1,1 @@
+{"name":"sticky-action-bar","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node tests/browser.mjs"},"devDependencies":{"@playwright/test":"1.56.1"}}
